@@ -1,1 +1,1 @@
-# multi_game_bot
+# Multi-gaming-in-telegram-web
