@@ -2,7 +2,7 @@
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 def main():
-    app = ApplicationBuilder().token("7813099030:AAG-_9Dxfx_lgytMyQ0TMSJ1rKDvW8m_RbM").build()
+    app = ApplicationBuilder().token().build()
 
     app.add_handler(CommandHandler('start', start))
 
